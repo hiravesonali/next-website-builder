@@ -2,14 +2,8 @@
 
 export function Editor() {
   return (
-    <div
-      style={{
-        padding: 40,
-        fontSize: 24,
-        fontWeight: 'bold',
-      }}
-    >
-      🚀 Editor package is working!
+    <div className="flex h-screen items-center justify-center">
+      <h1 className="text-5xl font-bold">🚀 Editor Package Working</h1>
     </div>
   );
 }

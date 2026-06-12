@@ -20,6 +20,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@repo/editor':
+        specifier: workspace:*
+        version: link:../../packages/editor
       next:
         specifier: 16.2.0
         version: 16.2.0(react-dom@19.2.0)(react@19.2.0)
@@ -48,7 +51,14 @@ importers:
 
   packages/config: {}
 
-  packages/editor: {}
+  packages/editor:
+    dependencies:
+      react:
+        specifier: ^19
+        version: 19.2.0
+      react-dom:
+        specifier: ^19
+        version: 19.2.0(react@19.2.0)
 
   packages/types: {}
 
