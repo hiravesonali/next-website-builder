@@ -10,5 +10,8 @@
   "peerDependencies": {
     "react": "^19",
     "react-dom": "^19"
+  },
+  "dependencies": {
+    "@puckeditor/core": "^0.21.3"
   }
 }
