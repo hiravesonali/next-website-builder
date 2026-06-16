@@ -13,5 +13,10 @@
   },
   "dependencies": {
     "@puckeditor/core": "^0.21.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.2"
   }
 }
